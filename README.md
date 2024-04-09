@@ -87,3 +87,25 @@ Here's a step-by-step guide to launching an Amazon EC2 instance on Kali Linux:
 By following these steps, you can successfully launch and connect to a Kali Linux EC2 instance, ready for whatever tasks you may need it for. Remember to always adhere to AWS's acceptable use policy, especially when conducting penetration testing or other security-related activities.
 ![Screenshot 2024-04-05 005400](https://github.com/luzritacco/AWS-lab/assets/151267325/61a3844a-e651-4f0e-8dbe-20d7dabc49d5)
 ![Screenshot 2024-04-05 005432](https://github.com/luzritacco/AWS-lab/assets/151267325/9f415de8-1544-4860-9567-3d0325955951)
+
+Connect to instance 
+
+![Screenshot 2024-04-05 013907](https://github.com/luzritacco/AWS-lab/assets/151267325/1942a24e-91b3-4578-b2c0-9d26caf809d0)
+
+##
+<h1 align="center">LAUNCH EC2 AMAZON ELASTIC -widows server  </h1>
+
+
+Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) cloud, allowing users to run applications on a virtual server known as an instance. For those looking to launch a Windows server on EC2, the process is straightforward and can be done in a few simple steps.
+
+- **Step 1: Launch an Instance-** To launch a Windows instance, navigate to the Amazon EC2 console. From the dashboard, select 'Launch Instance' to start the process.
+- **Step 2: Choose an Amazon Machine Image (AMI)**-Select a Windows-based AMI from the Quick Start list. Amazon provides a variety of AMIs pre-configured with different versions of Windows Server.
+- **Step 3: Select an Instance Type**Choose an instance type that matches your performance and budget requirements. AWS offers a range of instance types designed for different use cases.
+- **Step 4: Configure Instance Details**Set up the network and security group for your instance. You can select an existing security group or create a new one that specifies which ports are open and who can access the instance.
+- **Step 5: Add Storage**You can add additional Elastic Block Store (EBS) volumes if you need more storage than what is provided by default with the AMI.
+- **Step 6: Configure Security Group**A security group acts as a virtual firewall. You must configure it to control the traffic to and from your instance.
+- **Step 7: Review and Launch**Review your instance configuration and make any necessary changes. When you're ready, click 'Launch' to start your Windows server.
+- **Step 8: Connect to Your Instance**After the instance is running, connect to it using Remote Desktop Protocol (RDP). You'll need the public DNS name or IP address of the instance and the private key file associated with your security group.
+
+By following these steps, you can successfully launch and connect to a Windows server on Amazon EC2. 
+
