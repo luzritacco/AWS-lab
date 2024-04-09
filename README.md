@@ -65,3 +65,23 @@ By following these steps, you can establish a VPC that not only meets your opera
 ![Screenshot 2024-04-05 005326](https://github.com/luzritacco/AWS-lab/assets/151267325/1cc8f665-5dfd-4cb3-9a54-935158571012)
 
    ##
+   
+<h1 align="center">LAUNCH EC2 AMAZON ELASTIC INSTANCE ON KALI LINUX </h1>
+
+
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers and allows for scalable deployment of applications by providing a web services interface through which a user can create and manage virtual machines, or instances.
+
+For users of Kali Linux, a popular Linux distribution designed for digital forensics and penetration testing, launching an EC2 instance can be particularly useful. Whether it's for security testing, running simulations, or just leveraging the cloud for various tasks, the process is straightforward but requires attention to detail.
+
+Here's a step-by-step guide to launching an Amazon EC2 instance on Kali Linux:
+
+- **Create an AWS Account**: Before you can launch an EC2 instance, you need to have an active AWS account. If you don't have one, you can create it on the AWS website.
+- **Select the Kali Linux Amazon Machine Image (AMI)**: Once logged into your AWS account, navigate to the EC2 dashboard and select "AMI Catalog" on the left side. Search for the official Kali Linux image and select it.
+- **Instance Configuration**: After selecting the Kali Linux AMI, you will need to configure your instance. This includes selecting the instance type, which determines the hardware of the host computer used for your instance.
+- **Security Settings**: Set up security groups and key pairs to ensure secure access to your instance. Security groups act as a virtual firewall that controls the traffic for one or more instances, while key pairs are used to securely log into your instance.
+- **Storage Configuration**: Configure the storage settings for your instance. By default, the storage selected does not use magnetic storage, which may incur additional costs. You can change this to "standard" to prevent extra costs.
+- **Launch the Instance**: After configuring all settings, you can launch your instance by clicking on "Launch Instance". You will then see a screen confirming that your instance is launching.
+- **Connect to Your Instance**: After the instance is up and running, you can connect to it using SSH. The command to connect will typically look like this: `ssh -i "keys.pem" kali@ip-address`, where `keys.pem` is your private key file and `ip-address` is the public IP address of your instance.
+- **Post-Connection Configuration**: Once connected, you may want to update the system and install necessary software. For a full Kali Linux toolset, you can utilize Kali’s metapackages.
+
+By following these steps, you can successfully launch and connect to a Kali Linux EC2 instance, ready for whatever tasks you may need it for. Remember to always adhere to AWS's acceptable use policy, especially when conducting penetration testing or other security-related activities.
