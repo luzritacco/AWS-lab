@@ -85,3 +85,5 @@ Here's a step-by-step guide to launching an Amazon EC2 instance on Kali Linux:
 - **Post-Connection Configuration**: Once connected, you may want to update the system and install necessary software. For a full Kali Linux toolset, you can utilize Kali’s metapackages.
 
 By following these steps, you can successfully launch and connect to a Kali Linux EC2 instance, ready for whatever tasks you may need it for. Remember to always adhere to AWS's acceptable use policy, especially when conducting penetration testing or other security-related activities.
+![Screenshot 2024-04-05 005400](https://github.com/luzritacco/AWS-lab/assets/151267325/61a3844a-e651-4f0e-8dbe-20d7dabc49d5)
+![Screenshot 2024-04-05 005432](https://github.com/luzritacco/AWS-lab/assets/151267325/9f415de8-1544-4860-9567-3d0325955951)
