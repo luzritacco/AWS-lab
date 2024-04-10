@@ -93,7 +93,7 @@ Connect to instance
 ![Screenshot 2024-04-05 013907](https://github.com/luzritacco/AWS-lab/assets/151267325/1942a24e-91b3-4578-b2c0-9d26caf809d0)
 
 ##
-<h1 align="center">LAUNCH EC2 AMAZON ELASTIC -widows server  </h1>
+<h1 align="center">LAUNCH EC2 AMAZON ELASTIC-WINDOWS SERVER </h1>
 
 
 Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) cloud, allowing users to run applications on a virtual server known as an instance. For those looking to launch a Windows server on EC2, the process is straightforward and can be done in a few simple steps.
@@ -108,4 +108,20 @@ Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity i
 - **Step 8: Connect to Your Instance**After the instance is running, connect to it using Remote Desktop Protocol (RDP). You'll need the public DNS name or IP address of the instance and the private key file associated with your security group.
 
 By following these steps, you can successfully launch and connect to a Windows server on Amazon EC2. 
+![image](https://github.com/luzritacco/AWS-lab/assets/151267325/cf8bcd2f-5bfb-4af9-a2e2-72f80eafdc9a)
+![image](https://github.com/luzritacco/AWS-lab/assets/151267325/7f4b36cc-2acd-4ebf-83d1-ecdfbdb52b53)
+![image](https://github.com/luzritacco/AWS-lab/assets/151267325/99187d9b-6126-4714-a4b9-fb746f08294d)
+
+#
+
+Connect to instance
+
+
+![image](https://github.com/luzritacco/AWS-lab/assets/151267325/8bc0dd44-7b6e-47ad-8d8e-f9db1152647e)
+![image](https://github.com/luzritacco/AWS-lab/assets/151267325/a50800cf-c99d-43df-b52c-714744e4cf2b)
+##
+<h1 align="center">CONCLUSION</h1>
+
+Building AWS cloud labs indeed serves as a cornerstone for those aspiring to thrive in cybersecurity. These labs provide a sandbox environment where theoretical concepts meet real-world scenarios, allowing individuals to experiment, learn, and innovate without the risks associated with live environments. The hands-on experience gained is invaluable, fostering a deep understanding of cloud architecture, security protocols, and best practices. As the cybersecurity landscape evolves, the integration of cloud labs into professional development will likely become a standard, distinguishing those who are not only knowledgeable but also adept at applying their skills in a cloud-centric world.
+
 
